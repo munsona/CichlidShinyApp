@@ -1,8 +1,8 @@
 fluidPage( 
-  titlePanel("Hi everyone!"), 
+  titlePanel("TITLE"), 
   sidebarLayout( sidebarPanel(
-  textInput("myText1", "Enter some text here:"), 
-  actionButton("createNewData", "Simulate new data for 2nd bar plot") ), 
+  textInput("myText1", "HOLDER"), 
+  actionButton("createNewData", "HOLDER") ), 
   mainPanel( 
    tabsetPanel(
      tabPanel("Individual Fish Tank Use", plotOutput ("plot")),
